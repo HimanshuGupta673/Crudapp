@@ -20,10 +20,10 @@ public class UserRepositoryTests {
     @Test
     public void testAddNew(){
         User user = new User();
-        user.setEmail("himanshu@gmail.com");
+        user.setEmail("kartik123.com");
         user.setPassword("1234567");
-        user.setFirstName("Himanshu");
-        user.setLastName("Gupta");
+        user.setFirstName("kartik");
+        user.setLastName("Verma");
 
         User savedUser= repo.save(user);
 
